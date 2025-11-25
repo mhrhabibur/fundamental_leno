@@ -210,11 +210,6 @@ img {
 .testimonials {
   padding: 4rem 2rem;
   text-align: center;
-  width: 80%;
-  max-width: 1200px;
-  display: flex;
-  justify-content: center; /* Center the grid */
-  margin: 0 auto;
 }
 
 .testimonials__container {
@@ -223,12 +218,10 @@ img {
   gap: 2rem;
   align-items: center;
   justify-content: center;
-  align-content: center;
 }
 
 .testimonials__card {
   padding: 0 3rem;
-  flex: 1;
 }
 
 .testimonials__image img {
