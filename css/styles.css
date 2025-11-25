@@ -245,13 +245,6 @@ img {
 
 .features__container {
   text-align: center;
-  padding: 4rem 2rem;
-  text-align: center;
-  width: 80%;
-  max-width: 1200px;
-  display: flex;
-  justify-content: center; /* Center the grid */
-  margin: 0 auto;
 }
 
 .features__title {
@@ -268,7 +261,7 @@ img {
 .features__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .features__grid-column {
