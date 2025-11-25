@@ -50,6 +50,17 @@ img {
   transition: background-color 0.3s ease-in-out;
 }
 
+.navbar.navbar--scroll {
+  background-color: rgba(38, 36, 49, 0.8);
+  backdrop-filter: blur(10px);
+}
+
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .navbar__container {
   display: flex;
   justify-content: space-between;
@@ -63,19 +74,14 @@ img {
 
 .navbar__menu-list {
   display: flex;
-  gap: 2rem;
   align-items: center;
+  gap: 2rem;
   font-weight: 600;
 }
 
-
-.navbar__menu-link:hover {
+.navbar__menu-link:hover,
+.navbar__mobile-menu-link:hover {
   color: var(--primary-color);
-}
-
-.navbar__menu-list i:hover {
-  color: var(--primary-color);
-  cursor: pointer;
 }
 
 .navbar__menu-link--primary,
@@ -83,25 +89,15 @@ img {
   color: var(--primary-color);
 }
 
-.navbar__mobile-menu-link:hover {
-  color: var(--primary-color);
+.navbar__menu-link--primary:hover,
+.navbar__mobile-menu-link--primary:hover {
+  color: #fff;
 }
 
-.navbar__mobile-menu-list i:hover {
-  color: var(--primary-color);
-  cursor: pointer;
-}
-
+/* Mobile Menu */
 .navbar__mobile-menu {
   display: none;
-}
-
-.navbar__mobile-menu-toggle {
   cursor: pointer;
-}
-
-.navbar__mobile-menu-toggle:hover {
-  color: var(--primary-color);
 }
 
 .navbar__mobile-menu-items {
@@ -346,7 +342,7 @@ img {
 
 /* Play Button Circle */
 .preview__video-play-button::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -376,7 +372,7 @@ img {
 
 /* Play Button Animation */
 .preview__video-play-button::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -589,7 +585,6 @@ img {
   padding: 9rem 2rem;
 }
 
-
 .details__grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -625,12 +620,12 @@ img {
 } */
 
 .details__icons {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 8rem;
-    gap: 2rem;
-    justify-content: space-around;
-    text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 8rem;
+  gap: 2rem;
+  justify-content: space-around;
+  text-align: center;
 }
 
 .details__icons i {
