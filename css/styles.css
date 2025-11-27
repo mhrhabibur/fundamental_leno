@@ -1,9 +1,9 @@
 *,
 *:before,
 *:after {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
@@ -533,9 +533,9 @@ img {
   margin-bottom: 0.5rem;
 }
 
-.footer__description {
+/* .footer__description {
   text-align: left;
-}
+} */
 
 .footer__social {
   display: flex;
@@ -659,10 +659,7 @@ img {
     text-align: center;
   }
 
-  .hero__description {
-    text-align: justify;
-    font-size: 10px;
-  }
+  
 
   .hero__buttons {
     display: flex;
@@ -671,7 +668,6 @@ img {
   }
   .hero__button {
     width: 100%;
-    font-size: 12px;
   }
 
   .testimonials__container {
